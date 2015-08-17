@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Tandayag_form </title>
+	</head>
+	
+	<body style="background-color: pink">
+	
+			<div style="background-color:lavender; width:350px;margin: 0 auto;height: 50px;border-style: solid; border-color:#618080;border-width: 1px;">
+				<h1 style="position:relative; left:80px;top:-10px"><i>PA-ORDER</i></h1>
+			</div>
+			
+			<form style="width: 350px;border-style: solid; border-color: #618080; border-width: 1px; background-color:violet; position: relative;margin: 0 auto">
+				<br/>
+				First Name(text):
+					<input type="text" />
+				
+				<br/>
+				<br/>
+				Last Name(text):
+					<input type="text" />
+				
+				<br/>
+				<br/>
+				Username(text):
+					<input type="text"  />
+				
+				<br/>
+				<br/>
+				Password(password):
+					<input type="password"  />
+				
+				<br/>
+				<br/>
+				FAVORITE COLOR(color):
+				<input type="color">
+				
+				<br/>
+				<br/>
+				ZODIAC SIGN:(select)<br>
+				<select>
+					<option>Capricorn</option>
+					<option>Aquarius</option>
+					<option>Pisces</option>
+					<option>Aries</option>		
+					<option>Taurus</option>
+					<option>Gemini</option>
+					<option>Cancer</option>
+					<option>Leo</option>
+					<option>Virgo</option>
+					<option>Libra</option>
+					<option>Scorpio</option>
+					<option>Sagittarius</option>
+				</select>
+				
+				<br/>
+				<br/>
+				GENDER (radio button):
+				<br/>
+				<input type="radio" name="sex" value="male" checked /> Male
+				<br/>
+				<input type="radio" name="sex" value="female" /> Female
+				
+				<br/>
+				<br/>
+				CHECK YOUR ORDER/S (checkbox):
+				<br/>
+				<input type="checkbox" />Pizza Pie
+				<br>
+				<input type="checkbox" />Sinigang Express
+				<br>
+				<input type="checkbox" />Adobo
+				<br>
+				<input type="checkbox" />Sinugba			
+				
+				<br/>
+				<br/>
+				BIRTHDAY(datetime-local):
+				<br>
+				<input type="datetime-local" />
+				
+				<br/>
+				<br/>
+				Birthday(date):
+				<input type="date" name="bday">
+				
+				<br/>
+				<br/>
+				 Quantity (between 1 and 5)(number):
+				<input type="number" name="quantity" min="1" max="5">
+				
+				<br/>
+				<br/>
+				Enter a date before 1980-01-01(date):
+				<input type="date" name="bday" max="1979-12-31">
+				<br/>
+				<br/>
+				Enter a date after 2000-01-01(date):
+				<input type="date" name="bday" min="2000-01-02">
+				
+				<br/>
+				<br/>
+				TIME(time):
+				<input type="time" name="usr_time">
+				
+				<br/>
+				<br/>
+				SELECT A WEEK(week):
+				<input type="week" name="week_year">
+				
+				<br/>
+				<br/>
+				 Birthday (month and year):
+				<input type="month" name="bdaymonth">
+				
+				<br/>
+				<br/>
+				RANGE(range):
+				<input type="range" name="points" min="0" max="10">
+				
+				<br/>
+				<br/>
+				EMAIL(email):
+				<input type="email"/>
+				
+				<br/>
+				<br/>
+				SEARCH(search):
+				<input type="search" />
+				
+				<br/>
+				<br/>
+				URL(url):
+				<input type="url">
+				
+				<br/>
+				<br/>
+				COMMENT(textarea)<br> 
+				<textarea  rows="10" cols="30" placeholder="write your commment..."></textarea>
+				
+				<br/>
+				<br/>
+				<input type="button" onclick="alert('Cancelled!')" value="CANCEL(button)" />
+				<input type="submit" value="ORDER NOW(value)" />
+				<br/>
+				<br/>
+				
+			</form>
+	</body>
+</html>
